@@ -1,0 +1,133 @@
+@media only screen and (min-width: 1024px) {
+    .menu-item-3464 span {
+        padding: 4px 15px;
+        background: #7ebec5;
+        color: #FFF;
+        border-radius: 10px;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .et_pb_fullwidth_menu .fullwidth-menu-nav,
+    nav#top-menu-nav {
+        display: block !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    nav#top-menu-nav,
+    #et-top-navigation {
+       width: 100%;
+    }
+}
+
+#logo {
+max-height: 95%;
+}
+
+label[for="cat"] {
+font-size:0px;
+}
+
+div.logo-container {
+  padding: unset;
+}
+
+.sub-menu {
+    width: 50% !important;
+    margin-left: 50%;
+}
+
+.fa {
+    line-height: inherit !important;
+}
+.fa-ul {
+    list-style-type: none !important;
+}
+.fa-li {
+    top: 0px !important;
+}
+
+.logo_container {
+    padding: 10px;
+}
+
+.menu-item-3532 span {
+    padding: 4px 15px;
+    background: #7ebec5;
+    border-radius: 10px;
+}
+
+#top-menu li.mega-menu > ul > li > a:first-child{
+    border: none;
+}
+
+.sub-menu li a span {
+  font-weight: normal;
+  border: none;
+}
+
+.network-icon .et_pb_main_blurb_image img {
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    padding: 20px;
+    width: 150px;
+}
+
+.truck-icon .et_pb_main_blurb_image img {
+    border-radius: 50%;
+    border: 3px solid #FFF;
+    padding: 20px;
+    width: 150px;
+}
+
+@media only screen and (min-width: 470px) {
+   h3 { 
+      font-size: 40px;
+      text-align: center;
+      word-wrap: break-word;
+   }
+}
+
+.mobile_menu_bar {
+  display: none;
+}
+
+#et-top-navigation-divi {
+  float: right;
+}
+
+@media only screen and (max-width: 960px) {
+  #et-top-navigation-divi {
+    float: left;
+    padding-left: 3px;
+  }
+.et_header_style_left .logo_container {
+display: none;
+}
+#mega-menu-wrap-primary-menu .mega-menu-toggle .mega-toggle-block-right {
+text-align: left;
+float: left;
+}
+}
+
+#sub-nav-width {
+margin-left: 30%;
+margin-right: 20px;
+width: 100%;
+}
+
+a.et_pb_pricing_table_button:before {
+content: ""
+}
+
+[data-icon]:before {
+content: ""
+} 
+
+.et_pb_pricing_tables_0 .et_pb_pricing_heading {
+	min-height: 97px;
+}
+
+@media (max-width: 767px) .et_pb_pricing_tables_0 .et_pb_pricing_heading {
+	min-height: 77px;
+}

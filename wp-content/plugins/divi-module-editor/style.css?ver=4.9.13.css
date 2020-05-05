@@ -1,0 +1,755 @@
+/*
+Divi Module Editor Pro by Gritty
+Version: 2.5
+Template: Divi
+*/
+/******************************* Menu buttons *******************************/
+
+/* Black with white writing */
+
+#main-header .menu-button-black a, #main-header.et-fixed-header .menu-button-black a {
+    background-color: #101010;
+    padding-bottom: 7px !important;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 3px;
+    border-bottom: solid 2px;
+    border-color: rgba(12,12,12,0.5);
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+
+/* Red with white writing */
+
+#main-header .menu-button-red a, #main-header.et-fixed-header .menu-button-red a {
+    background-color: #FF1515;
+    padding-bottom: 7px !important;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 3px;
+    border-bottom: solid 2px;
+    border-color: rgba(12,12,12,0.5);
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+
+/* Blue with white writing */
+
+#main-header .menu-button-blue a, #main-header.et-fixed-header .menu-button-blue a {
+    background-color: #1D75C7;
+    padding-bottom: 7px !important;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 3px;
+    border-bottom: solid 2px;
+    border-color: rgba(12,12,12,0.5);
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+
+/* Yellow with white writing */
+
+#main-header .menu-button-yellow a, #main-header.et-fixed-header .menu-button-yellow a {
+    background-color: #ffa500;
+    padding-bottom: 7px !important;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 3px;
+    border-bottom: solid 2px;
+    border-color: rgba(12,12,12,0.5);
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #ffffff !important;
+}
+
+/* Light grey with black writing */
+
+#main-header .menu-button-light-grey a, #main-header.et-fixed-header .menu-button-light-grey a {
+    background-color: #DEDEDE;
+    padding-bottom: 7px !important;
+    padding-top: 7px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 3px;
+    border-bottom: solid 2px;
+    border-color: rgba(12,12,12,0.5);
+    margin-top: -7px;
+    margin-bottom: 10px;
+    color: #101010 !important;
+}
+
+/******************************* Sections with Arrows on top or bottom *******************************/
+
+/*** black section arrow down ***/
+
+.arrow-black-down {
+    background: #101010 !important;
+}
+
+.arrow-black-down:after {
+display: block;
+position: absolute;
+content: '';
+width: 60px;
+height: 60px;
+bottom: -30px;
+left: 50%;
+margin-left: -30px;
+background-color: #101010;
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+z-index: 1;
+}
+
+/*** black section arrow up ***/
+
+.arrow-black-up{
+    background: #101010 !important;
+}
+
+.arrow-black-up:before {
+display: block;
+position: absolute;
+content: '';
+width: 60px;
+height: 60px;
+top: -30px;
+left: 50%;
+margin-left: -30px;
+background-color: #101010;
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+z-index: 1;
+}
+
+/*** white section arrow down ***/
+
+.arrow-white-down {
+    background: #ffffff !important;
+}
+
+.arrow-white-down:after {
+display: block;
+position: absolute;
+content: '';
+width: 60px;
+height: 60px;
+bottom: -30px;
+left: 50%;
+margin-left: -30px;
+background-color: #ffffff;
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+z-index: 1;
+}
+
+/*** white section arrow up ***/
+
+.arrow-white-up{
+    background: #ffffff !important;
+}
+
+.arrow-white-up:before {
+display: block;
+position: absolute;
+content: '';
+width: 60px;
+height: 60px;
+top: -30px;
+left: 50%;
+margin-left: -30px;
+background-color: #ffffff;
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+z-index: 1;
+}
+
+/*** grey section arrow down ***/
+
+.arrow-grey-down {
+    background: #DEDEDE !important;
+}
+
+.arrow-grey-down:after {
+display: block;
+position: absolute;
+content: '';
+width: 60px;
+height: 60px;
+bottom: -30px;
+left: 50%;
+margin-left: -30px;
+background-color: #dedede;
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+z-index: 1;
+}
+
+/*** grey section arrow up ***/
+
+.arrow-grey-up{
+    background: #dedede !important;
+}
+
+.arrow-grey-up:before {
+display: block;
+position: absolute;
+content: '';
+width: 60px;
+height: 60px;
+top: -30px;
+left: 50%;
+margin-left: -30px;
+background-color: #DEDEDE;
+-ms-transform: rotate(45deg);
+-webkit-transform: rotate(45deg);
+transform: rotate(45deg);
+z-index: 1;
+}
+
+/********************************************** Section Filters ***********************************************/
+
+/***** black filter ******/
+
+.black-filter {
+    -webkit-box-shadow: inset 0px 0px 0px 5000px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5000px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 5000px rgba(0, 0, 0, 0.5);
+}
+
+/***** red filter ******/
+
+.red-filter {
+    -webkit-box-shadow: inset 0px 0px 0px 5000px rgba(255, 21, 21, 0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5000px rgba(255, 21, 21, 0.5);
+    box-shadow: inset 0px 0px 0px 5000px rgba(255, 21, 21, 0.5);
+}
+
+/***** blue filter ******/
+
+.blue-filter {
+    -webkit-box-shadow: inset 0px 0px 0px 5000px rgba(29, 117, 199, 0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5000px rgba(29, 117, 199, 0.5);
+    box-shadow: inset 0px 0px 0px 5000px rgba(29, 117, 199, 0.5);
+}
+
+/***** yellow filter ******/
+
+.yellow-filter {
+    -webkit-box-shadow: inset 0px 0px 0px 5000px rgba(255, 165, 0, 0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5000px rgba(255, 165, 0, 0.5);
+    box-shadow: inset 0px 0px 0px 5000px rgba(255, 165, 0, 0.5);
+}
+
+/***** white filter ******/
+
+.white-filter {
+    -webkit-box-shadow: inset 0px 0px 0px 5000px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: inset 0px 0px 0px 5000px rgba(255, 255, 255, 0.5);
+    box-shadow: inset 0px 0px 0px 5000px rgba(255, 255, 255, 0.5);
+}
+
+/***************************************** Blurb Image Grow on hover ******************************************/
+
+.blurb-animation img {
+  -webkit-transition:all 0.3s ease-out;
+  -moz-transition:all 0.3s ease-out;
+  -ms-transition:all 0.3s ease-out;
+  -o-transition:all 0.3s ease-out;
+  transition:all 0.3s ease-out;
+}
+
+.blurb-animation img:hover {
+  -webkit-transform:scale(1.05);
+  -moz-transform:scale(1.05);
+  -ms-transform:scale(1.05);
+  -o-transform:scale(1.05);
+  transform:scale(1.05);
+}
+
+/************************** Portfolio Icons *****************************/
+
+/** Play Arrow right **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\49';
+}
+
+/** Double Arrow right **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\41';
+}
+
+/** Tick in a circle **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\52';
+}
+
+/** Plus icon in box **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\59';
+}
+
+/** Tick in box **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\5a';
+}
+
+/** Heart **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\e030';
+}
+
+/** Thumbs up **/
+
+.portfolio-icon .et_overlay:before {
+    content: '\e106';
+}
+
+/******************* Grid blog, no border, curved edge, shadow **************/
+
+.blog-mod-one .et_pb_blog_grid .hentry {
+    border-radius: 5px;
+    border-color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.1) 3px 3px 7px ;
+}
+
+.blog-mod-one .et_pb_blog_grid .et_pb_image_container img, .blog-mod-one .et_pb_blog_grid .et_audio_content, .blog-mod-one .et_pb_blog_grid .et_link_content, .blog-mod-one .et_pb_blog_grid .et_quote_content, .blog-mod-one .et_pb_blog_grid .et_pb_slider {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+/***** reduce padding by 50% ****/
+
+.padding-50 {
+       padding-top: 27px; 
+       padding-bottom: 27px; 
+    } 
+
+/***** reduce padding by 75% ****/
+
+.padding-25 {
+       padding-top: 14px; 
+       padding-bottom: 14px; 
+    } 
+
+/****** rotating sideways blurb images *****/
+
+.rotate-left-right .et_pb_blurb .et_pb_blurb_content .et_pb_main_blurb_image .et-pb-icon:hover {
+       transform: rotateY(360deg); 
+       transition: .8s; 
+    } 
+
+/****** rotating longways blurb images *****/
+
+.rotate-up-down .et_pb_blurb .et_pb_blurb_content .et_pb_main_blurb_image .et-pb-icon:hover {
+       transform: rotateX(360deg); 
+       transition: .8s; 
+    } 
+
+/************** Grey map on hover *************/
+
+.grey-part {
+       -webkit-filter: grayscale(0.1); 
+       -moz-filter: grayscale(0.1); 
+       -ms-filter: grayscale(0.1); 
+       -o-filter: grayscale(0.1); 
+       filter: grayscale(0.1); 
+    } 
+
+.grey-part:hover {
+       -webkit-filter: grayscale(1); transition: 1.5s;
+       -moz-filter: grayscale(1); transition: 1.5s;
+       -ms-filter: grayscale(1); transition: 1.5s;
+       -o-filter: grayscale(1); transition: 1.5s;
+       filter: grayscale(1); transition: 1.5s;
+    } 
+	
+/************** Grey map turning colour on hover *************/
+
+.grey-part-colour {
+       -webkit-filter: grayscale(1); 
+       -moz-filter: grayscale(1); 
+       -ms-filter: grayscale(1); 
+       -o-filter: grayscale(1); 
+       filter: grayscale(1); 
+    } 
+
+
+
+.grey-part-colour:hover {
+       -webkit-filter: grayscale(0.1); transition: 1.5s;
+       -moz-filter: grayscale(0.1); transition: 1.5s;
+       -ms-filter: grayscale(0.1); transition: 1.5s;
+       -o-filter: grayscale(0.1); transition: 1.5s;
+       filter: grayscale(0.1); transition: 1.5s;
+    } 
+
+/***************** Full height slider **********************/
+
+@media only screen and (min-width: 981px) {
+  .large-slider .et_pb_slider .et_pb_container {    
+    height: calc(100vh - 40px);
+  }
+  .large-slider .et_pb_slider .et_pb_slide_description {    
+    padding-top: calc(50vh - 100px);
+  }
+}
+
+/************* remove small plus sign on toggles *********/
+
+.plus-toggle .et_pb_toggle_title:before {
+    content: '';
+}
+
+/************ Pretty tabs ***************/
+
+.pretty-tabs, .et_pb_tabs_controls {
+    border: 0px !important;
+    background-color: transparent;
+}
+
+.pretty-tabs .et_pb_tab_active {
+    background-color: #101010 !important;
+}
+
+.pretty-tabs .et_pb_tabs_controls li.et_pb_tab_active a {
+    color: #ffffff !important;
+}
+
+.pretty-tabs .et_pb_tabs_controls li {
+    display: inline-block;
+    border: none !important;
+    margin-bottom: 10px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
+@media only screen and ( min-width: 480px ) {
+    .pretty-tabs .et_pb_tabs_controls .et_pb_tab_active:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    bottom: -10px;
+    left: calc(50% - 10px);
+    background-color: #101010;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    z-index: 1;
+}
+}
+
+/********* Change text headers to red ********/
+
+.change-text-header-red h1, .change-text-header-red h2, .change-text-header-red h3, .change-text-header-red h4, .change-text-header-red h5, .change-text-header-red h6 {
+    color: #FF1515;
+}
+
+/********* Change paragraph text to red ********/
+
+.change-text-red p {
+    color: #FF1515;
+}
+
+/********* Change text headers to blue ********/
+
+.change-text-header-blue h1, .change-text-header-blue h2, .change-text-header-blue h3, .change-text-header-blue h4, .change-text-header-blue h5, .change-text-header-blue h6 {
+    color: #1D75C7;
+}
+
+/********* Change paragraph text to blue ********/
+
+.change-text-blue p {
+    color: #1D75C7;
+}
+
+/********* Change text headers to yellow ********/
+
+.change-text-header-yellow h1, .change-text-header-yellow h2, .change-text-header-yellow h3, .change-text-header-yellow h4, .change-text-header-yellow h5, .change-text-header-yellow h6 {
+    color: #ffa500;
+}
+
+/********* Change paragraph text to yellow ********/
+
+.change-text-yellow p {
+    color: #ffa500;
+}
+
+/********* Change text headers to white ********/
+
+.change-text-header-white h1, .change-text-header-white h2, .change-text-header-white h3, .change-text-header-white h4, .change-text-header-white h5, .change-text-header-white h6 {
+    color: #ffffff;
+}
+
+/********* Change paragraph text to white ********/
+
+.change-text-white p {
+    color: #ffffff;
+}
+
+/********* Change text headers to black ********/
+
+.change-text-header-black h1, .change-text-header-black h2, .change-text-header-black h3, .change-text-header-black h4, .change-text-header-black h5, .change-text-header-black h6 {
+    color: #101010;
+}
+
+/********* Change paragraph text to black ********/
+
+.change-text-white p {
+    color: #101010;
+}
+
+/*********** Hide on mobile (portrait) *********/
+
+@media only screen and (max-width: 479px) {
+  .mobile-hide-portrait {    
+    display: none;
+  }
+}
+
+/*********** Hide on mobile (portrait + landscape) *********/
+
+@media only screen and ( max-width: 767px ) {
+  .mobile-hide {    
+    display: none;
+  }
+}
+
+/*********** Hide on mobiles and tablets (portrait) *********/
+
+@media only screen and ( max-width: 767px ) {
+  .tablet-hide-portrait {    
+    display: none;
+  }
+}
+
+/*********** Hide on mobiles and tablets *********/
+
+@media only screen and ( max-width: 1100px ) { 
+  .tablet-hide {    
+    display: none;
+  }
+}
+
+/********* Hide on desktops or larger *********/
+
+@media only screen and ( min-width: 1100px ) { 
+   .desktop-hide {    
+    display: none;
+  }
+}
+
+/********* Hide on any screen with a mobile menu *********/
+
+@media only screen and ( min-width: 980px ) { 
+   .mobile-menu-hide {    
+    display: none;
+  }
+}
+
+/****************************************************Slanted sections, a much better way ********************************/
+
+.slanted-section:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    bottom: -50px;
+    border-top: 50px solid;
+    border-left: 100vw solid transparent;
+    z-index: 1;
+}
+
+.slanted-section:before {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: block;
+    position: absolute;
+    content: '';
+    top: -50px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid;
+    border-left: 100vw solid transparent;
+    z-index: 1;
+}
+
+/************** Just a slanted top ***************/
+
+.slanted-section:before {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    display: block;
+    position: absolute;
+    content: '';
+    top: -50px;
+    width: 0;
+    height: 0;
+    border-top: 50px solid;
+    border-left: 100vw solid transparent;
+    z-index: 1;
+}
+
+/********************* just a slanted bottom ************/
+
+.slanted-section:after {
+    display: block;
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    bottom: -50px;
+    border-top: 50px solid;
+    border-left: 100vw solid transparent;
+    z-index: 1;
+}
+
+/******** now set the colour to black *************/
+
+.slant-colour-black:after, .slant-colour-black:before {
+    border-top: 50px solid #010101;
+}
+
+.slant-colour-black{
+    background: #010101 !important;
+}
+
+/******** now set the colour to white *************/
+
+.slant-colour-white:after, .slant-colour-white:before {
+    border-top: 50px solid #ffffff;
+}
+
+.slant-colour-white {
+    background: #ffffff !important;
+}
+
+/******** now set the colour to light grey *************/
+
+.slant-colour-grey:after, .slant-colour:before {
+    border-top: 50px solid #dedede;
+}
+
+.slant-colour-grey {
+    background: #dedede !important;
+}
+
+/******** now set the colour to blue *************/
+
+.slant-colour-blue:after, .slant-colour-blue:before {
+    border-top: 50px solid #1D75C7;
+}
+
+.slant-colour-blue {
+    background: #1D75C7 !important;
+}
+
+/******** now set the colour to yellow *************/
+
+.slant-colour-yellow:after, .slant-colour-yellow:before {
+    border-top: 50px solid #ffa500;
+}
+
+.slant-colour-yellow {
+    background: #ffa500 !important;
+}
+
+/******** now set the colour to red *************/
+
+.slant-colour-red:after, .slant-colour-red:before {
+    border-top: 50px solid #FF1515;
+}
+
+.slant-colour-red {
+    background: #FF1515 !important;
+}
+/***** Module CSS ******/
+img.tocopy {
+    width: 42%;
+    margin: 20px;
+    float: none;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 2px;
+    border-color: #BEC7CF;
+}
+
+div.editor-intro {
+    background: #9700FD;
+    position: fixed;
+    left: 160px;
+    right: 0px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    z-index: 100;
+}
+
+div.editor-text {
+    position: relative;
+    background: #fff;
+    padding: 50px;
+    margin-top: 53px;
+    left: -20px;
+    margin-right: -20px;
+    font-size: 16px;
+    text-align: center;
+}
+
+div.editor-instructions {
+    background: #fff;
+    padding: 50px;
+    border-color: #CACACA;
+    margin-bottom: 20pxpxpxpx;
+    margin-left: -20px;
+}
+
+div.editor-instructions ol {
+    font-size: 16px;
+}
+
+div.editor-sec {
+    padding-left: 100px;
+    background: #fff;
+    margin-left: -20px;
+}
+
+h2.section-titles {
+    font-size: 28px;
+    padding-top: 20px;
+    font-weight: 800;
+}
+
+p.section-descriptions {
+    font-size: 16px;
+}
+
+img.example-image {
+    border-radius: 5px;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
