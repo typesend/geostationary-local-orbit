@@ -1544,20 +1544,20 @@ span.logo_helper {
 	float: left;
 }
 
-#et-info-phone,
+#defunct-et-info-phone,
 #et-info-email,
 .et-cart-info span {
 	position: relative;
 }
 
-#et-info-phone:before {
+#defunct-et-info-phone:before {
 	position: relative;
 	top: 2px;
 	margin-right: 2px;
 	content: "\e090";
 }
 
-#et-info-phone {
+#defunct-et-info-phone {
 	margin-right: 13px;
 }
 
@@ -8669,7 +8669,7 @@ p.et_pb_contact_field {
 .et_pb_font_icon:before,
 .et_audio_container .mejs-playpause-button button:before,
 .et_audio_container .mejs-volume-button button:before,
-#et-info-phone:before,
+#defunct-et-info-phone:before,
 #et-info-email:before,
 .et-cart-info span:before,
 .et_pb_pricing_table_button:after,
